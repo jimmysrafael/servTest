@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const todosRoutes = require("./todos.routes");
+//const todosRoutes = require("./todos.routes");
 
 const app = express();
 
@@ -9,7 +9,7 @@ app.use(cors());
 
 const port = process.env.PORT || 3333;
 
-app.get("/", (req, res) => {
+app.get("/jj", (req, res) => {
   return res.json("TESTE JJ");
 });
 
